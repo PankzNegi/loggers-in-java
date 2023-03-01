@@ -1,0 +1,49 @@
+COMPONENTS OF LOG4J----->
+1-LOGGER 2-APPENDER 3-LAYOUT
+
+We will be writing lot of classes in our application
+Repositery  class,Services,Services,Entity e.t.c
+We don't any code for entity(getters setters,variables,DTO'S)
+We want to find what is happening inside controller,service,repo
+
+So in which class you want to observe you have to create logger object .
+
+1-Loggers object-->used to log messages for specific system or application
+These are objects which triggers log events/capturing log event/record and pass to corresponding appender.
+Logger observe each classes (controller,services,repository).
+Logging only on actual service providers not for entities.
+
+
+
+
+2-Appenders-Recording log events to destination (where to print the data) where you want to store messages??
+File appender,Database appender(JDBC Appender),SMTP appender,ConsoleAppender e.t.c(location of message to be stored)
+All appenders are predefined classes.
+
+File appender--->.log
+Database appender(JDBC Appender)---->write msg in table form
+SMTP appender---->write msg to email
+ConsoleAppender---->print msg at console
+One project can have multiple appenders..
+
+3-Layout-Determine how data looks when appears in log entry
+(format xml.html,pattern)
+1-Default layout-msg and nextline
+2-HTML layout--.html
+3-XML--.xml
+4-PatternLayout--own customized pattern(mostly used)
+
+
+In short-- Logger-->(which class)
+Appender--->(where to store)
+Layout--->(how to print)
+
+
+Creating logger object--->
+class EmployeeController
+{
+Logger log=LogManager.getLogger(EmployeeController.class)
+}
+Meaning-whatever process is going on this class please analyse it .
+
+AOP--->do global configuration instead of writing above code(Aspect oriented prg)

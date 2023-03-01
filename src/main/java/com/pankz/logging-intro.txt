@@ -1,0 +1,40 @@
+Logging---> logging is an important feature that helps developers to trace out the errors.
+Logging is an API that provides the ability to trace out the errors of the applications.
+Java provides these API.
+Developers--->Application (IDE) writing code in IDE or local system we are testing it locally
+Whenever any error or exception comes it will be printed at consoles(Success /error message)
+
+
+But later after writing our code we moved to "production"i.e rael time server.
+Console has its own limitation ,we can't see  what is happening yesterday/day after yesterdays 5 days data
+It will be a problem so in production environment no such problem occur.
+
+Code when developed are deployed to "real time server"(Production Environment).
+Now when any (client)end user sent some request to server,server will give some response(error/other message)
+e.g transaction failed & application will not response.
+
+Now we want to know what problem is happening on server..
+
+I just want to find out the success/failure/error/warning messages.
+
+So IDENTIFYING SUCH MESSAGE known as logging!!!(getting complete status of app in form of messages)
+
+This logging concept is implemented by developer at the time of coding so that if app moves to server
+and if any problem occur he/she can find messages
+From these messages developer can find okk this is related to code so fix the code
+this is related to Trasaction so fix it related to integeration fix it,related to back end or ui fix it accordingly
+
+
+
+Tools for implementing logging
+1-Log4j
+2-Java Logging
+3-Commons Logging e.t.c
+
+Now these messages need to be stored somewhere--->file(text file.log),JDBC (db),Console(IDE(sout),SMTP(Network)
+
+
+One of the most used is file i.e log files.
+Step first always check log files...identify any error,warnings,alert,success,failure e.t.c
+
+

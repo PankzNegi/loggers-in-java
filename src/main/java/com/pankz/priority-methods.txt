@@ -1,0 +1,9 @@
+Priroty Methods--(WHAT TYPE OF MESSAGES IT IS??) By indicating its category
+TRACE--->bookmyshow-->redirected-->amazonpay--->paytm(messages from multiple stages/env/apps
+Microservices env(instead of calling several application) one application divided & connected
+DEBUG--->final result(internal details)
+INFO--->current step
+WARN---> App related message(memory related issues) affect performance
+FATAL--->db connection closed/network/server down/service provider not responding(environment related)
+ERROR--->details of exception.
+All these priority methods exist in logger object.(pre-defined in logger object)
