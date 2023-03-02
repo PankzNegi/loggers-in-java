@@ -1,0 +1,6 @@
+2023-03-02 12:20:26,906 - com.pankz.Test [processData] -(TRACE) FROM TRACE METHOD 
+2023-03-02 12:20:26,912 - com.pankz.Test [processData] -(DEBUG) FROM DEBUG METHOD 
+2023-03-02 12:20:26,913 - com.pankz.Test [processData] -(INFO) FROM INFO METHOD 
+2023-03-02 12:20:26,914 - com.pankz.Test [processData] -(WARN) FROM WARN METHOD 
+2023-03-02 12:20:26,914 - com.pankz.Test [processData] -(ERROR) FROM ERROR METHOD 
+2023-03-02 12:20:26,915 - com.pankz.Test [processData] -(FATAL) FROM FATAL METHOD 

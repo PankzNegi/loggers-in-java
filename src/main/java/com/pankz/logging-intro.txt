@@ -5,7 +5,7 @@ Developers--->Application (IDE) writing code in IDE or local system we are testi
 Whenever any error or exception comes it will be printed at consoles(Success /error message)
 
 
-But later after writing our code we moved to "production"i.e rael time server.
+But later after writing our code we moved to "production"i.e real time server.
 Console has its own limitation ,we can't see  what is happening yesterday/day after yesterdays 5 days data
 It will be a problem so in production environment no such problem occur.
 
